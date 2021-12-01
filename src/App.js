@@ -7,6 +7,7 @@ import RenderInput from './RenderInput';
 import FrameworkList from './FrameworkList';
 import MockServer from './MockServer';
 import Redux from './Redux';
+import ReduxAsync from './ReduxAsync';
 
 function App() {
   /*追加 output関数*/
@@ -36,6 +37,7 @@ function App() {
         {/* <FrameworkList /> {/* プロップスを渡さないバージョン */} 
         <MockServer/>
         <Redux />
+        <ReduxAsync />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
