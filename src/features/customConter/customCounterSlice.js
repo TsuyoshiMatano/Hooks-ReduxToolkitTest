@@ -1,9 +1,10 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from "axios";
+import { incrementAsync } from '../counter/counterSlice';
 
 const sleep = (msec) =>{
     const start = new Date();
-    while (new Date() - start < mesc);
+    while (new Date() - start < msec);
 };
 
 //非同期の関数
