@@ -1,7 +1,6 @@
 import React from "react"
 import {render, screen } from "@testing-library/react";
 import UseEffectRender from "./UseEffectRender";
-import { expect } from "@jest/globals";
 
 describe("useEffect rendering",()=> {
     it("Should render only after async function resolved",async()=>{

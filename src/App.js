@@ -5,6 +5,7 @@ import './App.css';
 import { render } from 'react-dom';
 import RenderInput from './RenderInput';
 import FrameworkList from './FrameworkList';
+import MockServer from './MockServer';
 
 function App() {
   /*追加 output関数*/
@@ -32,6 +33,8 @@ function App() {
         <RenderInput outputConsole={output} />
         <FrameworkList frameworks={data}/>
         {/* <FrameworkList /> {/* プロップスを渡さないバージョン */} 
+        <MockServer/>
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
